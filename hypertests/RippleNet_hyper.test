@@ -1,0 +1,3 @@
+learning_rate choice [0.01,0.005,0.001,0.0005,0.0001]
+n_memory choice [4,8,16,32]
+reg_weight choice [1e-4,5e-5,1e-5,5e-6,1e-6]

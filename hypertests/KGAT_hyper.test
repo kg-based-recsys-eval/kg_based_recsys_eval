@@ -1,0 +1,4 @@
+learning_rate choice [0.01,0.005,0.001,0.0005,0.0001]
+layers choice ['[64,32,16]','[64,64,64]','[128,64,32]']
+reg_weight choice [1e-4,5e-5,1e-5,5e-6,1e-6]
+mess_dropout choice [0.1,0.2,0.3,0.4,0.5]
