@@ -11,6 +11,7 @@ Only amazon-books dataset requires filtering
 
 `python3.8 run_hyper.py --model=CKE --dataset=amazon-books --params_file=hypertests/CKE_hyper.test --topk=[1,5,10,15,20] --user_inter_num_interval=[30,inf\) --item_inter_num_interval=[30,inf\) --output_file=../CKE_hyper_amazon-books.result`
 
+optimal hyperparams:
 ![Optimal hyperparams](hyperparams.png)
 
 # Run resulting model
