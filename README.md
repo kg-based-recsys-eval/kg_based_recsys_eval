@@ -14,6 +14,9 @@ Only amazon-books dataset requires filtering
 optimal hyperparams:
 ![Optimal hyperparams](hyperparams.png)
 
+Greed:
+![Greed](greed.png)
+
 # Run resulting model
 
 `python3.8 run_recbole.py --model=CKE --dataset=ml-1m --topk=10 --learning_rate=0.0001 --kg_embedding_size=16 --reg_weights=[0.01,0.01]`
