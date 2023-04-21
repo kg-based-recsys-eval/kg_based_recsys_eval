@@ -1,0 +1,6 @@
+learning_rate choice [1e-4,1e-3,5e-3]
+node_dropout_rate choice [0.1,0.3,0.5]
+mess_dropout_rate choice [0.0,0.1]
+context_hops choice [2,3]
+n_factors choice [4,8]
+ind choice ['cosine','distance']

@@ -4,11 +4,11 @@ use_gpu: True
 seed: 2020
 state: INFO
 reproducibility: True
-data_path: 'dataset/'
-checkpoint_dir: 'saved'
+data_path: '../ma.e.kuznetsova/dataset/'
+checkpoint_dir: '../ma.e.kuznetsova/dataset/saved'
 show_progress: True
 save_dataset: False #  True
-dataset_save_path: ~
+dataset_save_path: ~ # '../ma.e.kuznetsova/dataset/amazon-books-dataset.pth' 
 save_dataloaders: False
 dataloaders_save_path: ~
 log_wandb: False

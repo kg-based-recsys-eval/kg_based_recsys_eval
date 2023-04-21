@@ -68,7 +68,7 @@ def init_logger(config):
         >>> logger.info(train_result)
     """
     init(autoreset=True)
-    LOGROOT = './log/'
+    LOGROOT = '../ma.e.kuznetsova/dataset/log/'
     dir_name = os.path.dirname(LOGROOT)
     ensure_dir(dir_name)
     model_name = os.path.join(dir_name, config['dataset'], config['model']) # NEW

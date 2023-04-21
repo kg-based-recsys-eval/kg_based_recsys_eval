@@ -200,6 +200,28 @@ class NDCG(TopkMetric):
 
         result = dcg / idcg
         return result
+    
+
+
+# class Novelty(TopkMetric):
+#     r"""Novelty measures how "novel" a recommendation is in terms of how popular the item was in the train set.
+#     Due to this definition, the novelty of a cold item (i.e. with no interactions in the train set) is not defined,
+#     in this implementation cold items are ignored and their contribution to the novelty is 0.
+#     A recommender with high novelty will be able to recommend also long queue (i.e. unpopular) items.
+#     Mean self-information  (Zhou 2010)
+#     """
+
+#     def __init__(self, config):
+#         super().__init__(config)
+
+
+#     def calculate_metric(self, dataobject):
+        
+#         return 
+
+#     def metric_info(self, pos_index):
+
+#         return 
 
 
 class Precision(TopkMetric):

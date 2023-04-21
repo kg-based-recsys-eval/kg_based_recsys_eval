@@ -1,9 +1,11 @@
 #torch>=1.7.0
-torch
+torch>=1.10.0
 numpy>=1.17.2
+# numpy==1.20.0
 scipy==1.6.0
-hyperopt>=0.2.4
-pandas>=1.0.5
+hyperopt>=0.2.5
+# pandas>=1.4.0
+pandas==1.4.2
 tqdm>=4.48.2
 scikit_learn>=0.23.2
 pyyaml>=5.1.0
@@ -12,5 +14,6 @@ colorama==0.4.4
 tensorboard
 #>=2.5.0
 torchtext>=0.12.0
-dgl>=0.6.1
+# dgl>=0.6.1
+dgl==0.6.1
 protobuf<=3.20.0

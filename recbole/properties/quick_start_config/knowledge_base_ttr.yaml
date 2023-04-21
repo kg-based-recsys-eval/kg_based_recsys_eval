@@ -1,6 +1,6 @@
 load_col: 
     inter: ['user_id', 'item_id', 'rating', 'timestamp']
-    # user: ['user_id', 'gender', 'age', 'marital_status_desc', 'children_cnt', 'region_flg']
-    # item: ['item_id', 'category_id', 'transaction_bin_number']
+    user: ['user_id', 'gender', 'age', 'marital_status_desc', 'children_cnt', 'region_flg']
+    item: ['item_id', 'category_id', 'transaction_bin_number']
     kg: ['head_id', 'relation_id', 'tail_id']
     link: ['item_id', 'entity_id']

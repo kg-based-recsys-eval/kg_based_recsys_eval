@@ -1,0 +1,4 @@
+learning_rate choice [1e-4,1e-3,5e-3]
+node_dropout_rate choice [0.1,0.3,0.5]
+mess_dropout_rate choice [0.0,0.1]
+build_graph_separately choice [True, False]
